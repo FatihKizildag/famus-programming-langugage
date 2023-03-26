@@ -1,4 +1,4 @@
-# famus-programming-language
+# Famus-Programming-Language
 Programming Language 
 Project Member: Mehmet Fatih KIZILDAG 20190808041 - Mustafa Can KARTAL 20180808046
 Language Name: Famus
