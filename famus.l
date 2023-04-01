@@ -7,6 +7,7 @@
 \,	printf("COMMA ");
 RETURN printf("RETURN ");
 METHOD printf( "METHOD ");
+[a-z][a-zA-Z]*: printf("METHOD_NAME");
 \".*\" printf( " STRING");
 PRINT: printf("PRINT ");
 SCANNER#([^a-zA-Z0-9]) printf("SCANNER ");
