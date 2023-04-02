@@ -28,7 +28,7 @@ ELSE printf("ELSE ");
 \! printf("NOT ");
 [^a-zA-Z0-9]([/*].+[*/])[^a-zA-Z0-9] printf("COMMENT ");
 ; printf("SEMICOLON\n");
-TRUE|FALSE printf("BOOLEAN ");
+TRUE|FALSE|true|false printf("BOOLEAN ");
 START printf("START \n");
 END printf("END \n");
 ^[a-zA-Z_][a-zA-Z0-9_-]* printf("VAR \n ");
